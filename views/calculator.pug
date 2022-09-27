@@ -1,0 +1,32 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    title Calculator
+    link(href='styles.css', rel='stylesheet')
+    script(src='script.js', defer='')
+  body
+    .calculator-grid
+      .output
+        .previous-operand(data-previous-operand='')
+        .current-operand(data-current-operand='')
+      button.span-two(data-all-clear='') AC
+      button(data-delete='') DEL
+      button(data-operation='') &div;
+      button(data-number='') 1
+      button(data-number='') 2
+      button(data-number='') 3
+      button(data-operation='') *
+      button(data-number='') 4
+      button(data-number='') 5
+      button(data-number='') 6
+      button(data-operation='') +
+      button(data-number='') 7
+      button(data-number='') 8
+      button(data-number='') 9
+      button(data-operation='') -
+      button(data-number='') .
+      button(data-number='') 0
+      button.span-two(data-equals='') =
