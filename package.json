@@ -2,15 +2,16 @@
   "name": "calculator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-     "start": "nodemon app.js"
+    "test": "cucumber-js calcFeatures",
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@cucumber/cucumber": "^8.6.0",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
     "express-session": "^1.17.3",
