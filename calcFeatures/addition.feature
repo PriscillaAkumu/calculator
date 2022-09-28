@@ -1,8 +1,25 @@
 Feature: Addition
-        user wants to be told the sum of two numbers
+
+    user wants to be told the sum of two numbers
+
+    Background: calculator 
+       Given two numbers 1 and 2
+
+    Example: Addition
+       When added 
+       Then the answer 3
+
+    Example: Division
+       When divided 
+       Then the answer 0.5
+
+     Example: Multiplication
+       When multiplied
+       Then the answer 2
 
 
 Scenario Outline: Add two numbers
+
     Given User has entered <input_1> into the calculator
     And User has entered <input_2> into the calculator
     When User press <button>
