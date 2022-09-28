@@ -1,0 +1,7 @@
+export environment variables using terminal e.g
+export CUCUMBER_PUBLISH_TOKEN='some-secret-token'
+export CUCUMBER_PUBLISH_ENABLED=true 
+
+add the --publish flag in your test script in package.json
+or use it in terminal as an option: 
+npm run test --publish  

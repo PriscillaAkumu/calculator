@@ -83,6 +83,9 @@ class Calculator {
       this.previousOperandTextElement.innerText = `${this.getDisplayNumber(
         this.previousOperand
       )} ${this.operation}`;
+      // console.log(
+      //   `${this.getDisplayNumber(this.previousOperand)} ${this.operation}`
+      // );
     } else {
       this.previousOperandTextElement.innerText = "";
     }
@@ -123,6 +126,7 @@ operationButtons.forEach((button) => {
 equalsButton.addEventListener("click", (button) => {
   calculator.compute();
   calculator.updateDisplay();
+  console.log(calculator.updateDisplay());
 });
 
 allClearButton.addEventListener("click", (button) => {
