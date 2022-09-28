@@ -6,5 +6,11 @@
     ],
 
       "format": ["html:cucumber-report.html"]
-  }
+  },
+  "calctest":"calcFeatures",
+  "calcaddition":"calcFeatures/addition.feature",
+  "calcsubtraction":"calcFeatures/subtraction.feature",
+  "calcdivision":"calcFeatures/division.feature",
+  "calcfeature":"calcFeatures/calc.feature"
+
 }
