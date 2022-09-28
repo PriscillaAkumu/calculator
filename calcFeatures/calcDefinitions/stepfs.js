@@ -40,39 +40,33 @@ Then('the answer {int}', function (answer) {
 
 // // scenario 2
 // Given("user inputs {int} numbers", function (int) {
-//   // Given('user inputs {float} numbers', function (float) {
 //   // Write code here that turns the phrase above into concrete actions
 //   return "pending";
 // });
 
 // Then("return the difference of the {int} numbers", function (int) {
-//   // Then('return the difference of the {float} numbers', function (float) {
 //   // Write code here that turns the phrase above into concrete actions
 //   return "pending";
 // });
 
 // // scenario 3
 //  Given("user inputs {int} numbers", function (int) {
-//    // Given('user inputs {float} numbers', function (float) {
 //    // Write code here that turns the phrase above into concrete actions
 //    return "pending";
 //  });
 
 //  Then("return the product of the {int} numbers", function (int) {
-//    // Then('return the product of the {float} numbers', function (float) {
 //    // Write code here that turns the phrase above into concrete actions
 //    return "pending";
 //  });
 
 //  // Scenario 4
 //  Given("user inputs {int} numbers", function (int) {
-//    // Given('user inputs {float} numbers', function (float) {
 //    // Write code here that turns the phrase above into concrete actions
 //    return "pending";
 //  });
 
 //  Then("return the division of the {int} numbers", function (int) {
-//    // Then('return the division of the {float} numbers', function (float) {
 //    // Write code here that turns the phrase above into concrete actions
 //    return "pending";
 //  });

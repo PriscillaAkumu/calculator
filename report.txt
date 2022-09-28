@@ -5,3 +5,7 @@ export CUCUMBER_PUBLISH_ENABLED=true
 add the --publish flag in your test script in package.json
 or use it in terminal as an option: 
 npm run test --publish  
+
+
+
+npx cucumber-js -p profile
