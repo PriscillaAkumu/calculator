@@ -17,5 +17,8 @@
     "express-session": "^1.17.3",
     "nodemon": "^2.0.20",
     "pug": "^3.0.2"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.4.0"
   }
 }

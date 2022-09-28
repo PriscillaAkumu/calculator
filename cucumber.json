@@ -1,6 +1,10 @@
 {
   "default": {
-    "parallel": 2,
+    "publishQuiet": true,
+      "require": [
+      "calcFeatures/**/*.js"
+    ],
+
       "format": ["html:cucumber-report.html"]
   }
 }

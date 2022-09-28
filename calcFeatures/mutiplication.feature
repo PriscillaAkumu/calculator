@@ -1,4 +1,4 @@
-Feature: Multpilication
+Feature: Multiplication
         user wants to be told the product of two numbers
 
 
