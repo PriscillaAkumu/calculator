@@ -7,14 +7,6 @@ const calculatorRoutes = require("./routes/calculatorRoutes");
 // instantiating server
 const app = express();
 
-// //express sesssion
-// const expressSession = require("express-session")({
-//   secret: "secret",
-//   resave: false,
-//   saveUninitialized: false,
-//   //cookie:{ maxAge:60*60*1000},
-// });
-
 // views settings or configurations
 app.set("view engine", "pug");
 app.set("views", "./views");
@@ -22,7 +14,6 @@ app.set("views", "./views");
 // middle ware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
-// app.use(expressSession);
 
 // routes
 app.use("/", calculatorRoutes);
